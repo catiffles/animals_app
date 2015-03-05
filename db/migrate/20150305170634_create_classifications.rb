@@ -3,7 +3,7 @@ class CreateClassifications < ActiveRecord::Migration
     create_table :classifications do |t|
       t.string :name
       t.boolean :vertebrate?
-      t.boolean :warm-blooded?
+      t.boolean :warm_blooded?
 
       t.timestamps null: false
     end
